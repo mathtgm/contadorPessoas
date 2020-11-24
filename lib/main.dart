@@ -20,11 +20,11 @@ class _HomeState extends State<Home> {
       _pessoas += delta;
 
       if (_pessoas < 0) {
-        _infoText = 'Mata todo mundo!!';
+        _infoText = 'Mundo invertido';
       } else if (_pessoas <= 10) {
         _infoText = 'Ta tranquilo';
       } else {
-        _infoText = 'Vai explodir';
+        _infoText = 'Limite alcançado';
       }
     });
   }
